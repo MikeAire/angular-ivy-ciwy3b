@@ -1,0 +1,10 @@
+#mainframe {
+  height: calc(100vh - (110px)); // 10px offset to ensure no scrollbar
+  width: 100%;
+  margin: 0px;
+  border: 0px;
+  overflow: hidden;
+  &.with-banner {
+    height: calc(100vh - (110px)); // 10px offset to ensure no scrollbar
+  }
+}
